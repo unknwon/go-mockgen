@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/derision-test/go-mockgen/v2/internal/integration/testdata/mocks"
 	"github.com/stretchr/testify/assert"
+	"github.com/unknwon/go-mockgen/internal/integration/testdata/mocks"
 )
 
 func TestStrictConstructor(t *testing.T) {

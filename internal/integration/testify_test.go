@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/derision-test/go-mockgen/v2/internal/integration/testdata"
-	"github.com/derision-test/go-mockgen/v2/internal/integration/testdata/mocks"
-	mockassert "github.com/derision-test/go-mockgen/v2/testutil/assert"
 	"github.com/stretchr/testify/assert"
+	"github.com/unknwon/go-mockgen/internal/integration/testdata"
+	"github.com/unknwon/go-mockgen/internal/integration/testdata/mocks"
+	mockassert "github.com/unknwon/go-mockgen/testutil/assert"
 )
 
 func TestTestifyCalls(t *testing.T) {

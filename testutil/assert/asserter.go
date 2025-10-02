@@ -3,8 +3,8 @@ package mockassert
 import (
 	"reflect"
 
-	"github.com/derision-test/go-mockgen/v2/internal/testutil"
 	"github.com/stretchr/testify/assert"
+	"github.com/unknwon/go-mockgen/internal/testutil"
 )
 
 // CallInstanceAsserter determines whether or not a set of argument values from a call

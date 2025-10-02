@@ -1,8 +1,8 @@
 package mockrequire
 
 import (
-	mockassert "github.com/derision-test/go-mockgen/v2/testutil/assert"
 	"github.com/stretchr/testify/require"
+	mockassert "github.com/unknwon/go-mockgen/testutil/assert"
 )
 
 // Called asserts that the mock function object was called at least once.

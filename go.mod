@@ -1,4 +1,4 @@
-module github.com/derision-test/go-mockgen/v2
+module github.com/unknwon/go-mockgen
 
 go 1.24.0
 

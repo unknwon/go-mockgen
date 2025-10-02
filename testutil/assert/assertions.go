@@ -3,8 +3,8 @@ package mockassert
 import (
 	"fmt"
 
-	"github.com/derision-test/go-mockgen/v2/internal/testutil"
 	"github.com/stretchr/testify/assert"
+	"github.com/unknwon/go-mockgen/internal/testutil"
 )
 
 // Called asserts that the mock function object was called at least once.

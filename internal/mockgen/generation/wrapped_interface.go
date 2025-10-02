@@ -1,6 +1,6 @@
 package generation
 
-import "github.com/derision-test/go-mockgen/v2/internal/mockgen/types"
+import "github.com/unknwon/go-mockgen/internal/mockgen/types"
 
 type wrappedInterface struct {
 	*types.Interface

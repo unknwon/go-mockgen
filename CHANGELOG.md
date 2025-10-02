@@ -19,7 +19,7 @@ Nothing yet!
 
 ## [v2.0.1] - 2024-03-04
 
-- Changed name of module to `github.com/derision-test/go-mockgen/v2`.
+- Changed name of module to `github.com/unknwon/go-mockgen`.
 - Updated module to Go 1.22. [#52](https://github.com/derision-test/go-mockgen/pull/52)
 
 ## v2.0.0 - 2024-03-04

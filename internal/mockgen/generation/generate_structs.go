@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/derision-test/go-mockgen/v2/internal/mockgen/types"
 	"github.com/dustin/go-humanize"
+	"github.com/unknwon/go-mockgen/internal/mockgen/types"
 )
 
 func generateMockStruct(iface *wrappedInterface, outputImportPath string) jen.Code {
