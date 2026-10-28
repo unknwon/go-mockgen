@@ -31,6 +31,15 @@ func (v *visitor) Visit(node ast.Node) ast.Visitor {
 				name := typeSpec.Name.Name
 				_, obj := v.pkgType.Scope().Innermost(typeSpec.Pos()).LookupParent(name, 0)
 
+				// An alias is not a distinct type, so there is nothing to mock for it:
+				// the aliased interface is mocked under its own name
+				// if it is in a target package.
+				// Since Go 1.27 an alias always has type *types.Alias,
+				// never the aliased *types.Named.
+				if tn, ok := obj.(*types.TypeName); ok && tn.IsAlias() {
+					continue
+				}
+
 				switch t := obj.Type().Underlying().(type) {
 				case *types.Interface:
 					namedType, ok := obj.Type().(*types.Named)

@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-Nothing yet!
+- Fixed panic on type aliases of interface types with Go 1.27 (which removed `gotypesalias=0`).
 
 ## [v2.1.1] - 2025-06-28
 
